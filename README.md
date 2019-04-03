@@ -1,4 +1,14 @@
+# facial-recognition-app
+
+THis app was created as the final project for the Udemy course "The Complete Web Developer in 2019: Zero to Mastery". <br>
+In the course, we built the front end, as well as the back end to this web page. <br>
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## What does it do?
+
+- Submit a link to a picture and the app will find the faces in it.
+- You can also sign in to the application and have an account
 
 ## Available Scripts
 

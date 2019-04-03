@@ -12,9 +12,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Technologies Used
 
+- Prettier
 - React (create-react-app)
 - Tachyons
 - React Tilt
+- React Particles
 
 <hr>
 

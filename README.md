@@ -14,6 +14,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 - React (create-react-app)
 - Tachyons
+- React Tilt
 
 <hr>
 

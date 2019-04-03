@@ -10,6 +10,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Submit a link to a picture and the app will find the faces in it.
 - You can also sign in to the application and have an account
 
+## Technologies Used
+
+- React (create-react-app)
+- Tachyons
+
+<hr>
+
 ## Available Scripts
 
 In the project directory, you can run:

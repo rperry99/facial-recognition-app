@@ -17,6 +17,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Tachyons
 - React Tilt
 - React Particles
+- Clarifai API
 
 <hr>
 

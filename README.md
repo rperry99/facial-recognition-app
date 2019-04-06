@@ -8,6 +8,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## What does it do?
 
 - Submit a link to a picture and the app will find the faces in it.
+  - Currently, it can only show one face in an image. It will choose and show the first face it finds if there are multiple.
 - You can also sign in to the application and have an account
 
 ## Technologies Used

@@ -19,6 +19,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - React Tilt
 - React Particles
 - Clarifai API
+  - This is the facial recognition API
 - Own Created API
   - This is what handles the sign in and register functions
 - Password Encryption with bcrypt

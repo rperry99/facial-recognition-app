@@ -20,9 +20,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - React Particles
 - Clarifai API
   - This is the facial recognition API
-- Own Created API
+- Own Created Server
   - This is what handles the sign in and register functions
 - Password Encryption with bcrypt
+- cors npm package
 
 <hr>
 

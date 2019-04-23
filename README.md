@@ -25,6 +25,17 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Password Encryption with bcrypt
 - cors npm package
 
+## How to use
+
+1. Download the facial recognition app project from this page.
+2. Open a terminal and navigate to the project
+   - Run npm install to get all of the packages
+   - Run npm start to start the front end
+3. Download the server I created; [facial-recognition-app-server](https://github.com/rperry99/facial-recognition-app-server)
+4. Open a seperate terminal and navigate to the project
+   - Run npm install to get all of the packages
+   - Run npm start to start the server
+
 <hr>
 
 ## Available Scripts

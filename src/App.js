@@ -97,7 +97,8 @@ class App extends Component {
             .then(response => response.json())
             .then(count => {
               this.setState(Object.assign(this.state.user, { entries: count }));
-            });
+            })
+            .catch(console.log);
         }
         this.displayFaceBox(this.calculateFaceLocation(response));
       })
@@ -110,7 +111,6 @@ class App extends Component {
     } else if (route === "home") {
       this.setState({ isSignedIn: true });
     }
-
     this.setState({ route: route });
   };
 

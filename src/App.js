@@ -100,20 +100,6 @@ class App extends Component {
         this.displayFaceBox(this.calculateFaceLocation(response));
       })
       .catch(error => console.log("Uh oh, something went wrong", error));
-
-    // app.models
-    //   .initModel({
-    //     id: Clarifai.GENERAL_MODEL,
-    //     version: "aa7f35c01e0642fda5cf400f543e7c40"
-    //   })
-    //   .then(generalModel => {
-    //     return generalModel.predict(
-    //       "https://samples.clarifai.com/metro-north.jpg"
-    //     );
-    //   })
-    //   .then(response => {
-    //     var concepts = response["outputs"][0]["data"]["concepts"];
-    //   });
   };
 
   onRouteChange = route => {
@@ -126,39 +112,6 @@ class App extends Component {
     this.setState({ route: route });
   };
 
-  // render() {
-  //   const { isSignedIn, imageUrl, route, box } = this.state;
-  //   return (
-  //     <div className="App">
-  //       <Particles className="particles" params={particleOptions} />
-  //       <Navigation
-  //         isSignedIn={isSignedIn}
-  //         onRouteChange={this.onRouteChange}
-  //       />
-  //       {route === "home" ? (
-  //         <div>
-  //           <Logo />
-  //           <Rank
-  //             name={this.state.user.name}
-  //             entries={this.state.user.entries}
-  //           />
-  //           <ImageLinkForm
-  //             onInputChange={this.onInputChange}
-  //             onButtonSubmit={this.onButtonSubmit}
-  //           />
-  //           <FaceRecognition box={box} imageUrl={imageUrl} />
-  //         </div>
-  //       ) : route === "signin" ? (
-  //         <SignIn onRouteChange={this.onRouteChange} loadUser={this.loadUser} />
-  //       ) : (
-  //         <Register
-  //           onRouteChange={this.onRouteChange}
-  //           loadUser={this.loadUser}
-  //         />
-  //       )}
-  //     </div>
-  //   );
-  // }
   render() {
     const { isSignedIn, imageUrl, route, box } = this.state;
     return (
